@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f6f1" />
+    <meta
+      name="description"
+      content="Thoughtful corporate gifts and custom branded merchandise, made memorable by Goodform."
+    />
+    <title>Goodform — Gifts that bring people closer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement">
+      <span>Good things, delivered.</span>
+      <span class="announcement-note">Complimentary branding on orders over $500</span>
+      <a href="#how-it-works">See how it works <span aria-hidden="true">→</span></a>
+    </div>
+
+    <header class="site-header">
+      <button class="menu-toggle icon-button" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+      </button>
+      <a class="wordmark" href="#" aria-label="Goodform home">
+        <span class="wordmark-mark" aria-hidden="true">g.</span>goodform
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#shop">Shop all</a>
+        <a href="#shop" data-filter-link="Desk & tech">Desk & tech</a>
+        <a href="#shop" data-filter-link="On the go">On the go</a>
+        <a href="#shop" data-filter-link="Little luxuries">Little luxuries</a>
+        <a href="#how-it-works">Our approach</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button search-toggle" aria-label="Search products">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.3" /><path d="m16 16 4.4 4.4" /></svg>
+        </button>
+        <button class="icon-button cart-toggle" aria-label="Open shopping bag">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 12H4L5 8Z" /><path d="M9 9V6a3 3 0 0 1 6 0v3" /></svg>
+          <span class="cart-count" aria-live="polite">0</span>
+        </button>
+        <a class="header-cta" href="#contact">Let’s make it yours <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A little more thoughtful</p>
+          <h1 id="hero-title">Make them<br />feel <em>remembered.</em></h1>
+          <p class="hero-description">
+            The good kind of company gifting. Thoughtfully chosen pieces, made personal, and sent with a little extra care.
+          </p>
+          <div class="hero-buttons">
+            <a class="button button-light" href="#shop">Find your something <span aria-hidden="true">↗</span></a>
+            <a class="text-link hero-secondary" href="#how-it-works">How we make it easy <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-proof">
+            <div class="avatar-stack" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=64&q=80" alt="" />
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=64&q=80" alt="" />
+              <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=64&q=80" alt="" />
+            </div>
+            <p><strong>A better kind of business.</strong><br />Loved by 1,200+ people teams</p>
+          </div>
+          <span class="hero-stamp" aria-hidden="true"><span>GOOD<br />THINGS<br />INSIDE</span><b>✳</b></span>
+        </div>
+        <div class="hero-visual">
+          <img
+            src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=1400&q=88"
+            alt="A reusable water bottle ready to make someone's day"
+          />
+          <div class="hero-image-note"><span class="note-dot"></span> Little things. Lasting impressions.</div>
+          <div class="floating-note"><span class="floating-note-icon">✳</span><span>Made for<br /><strong>your people</strong></span></div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Goodform commitments">
+        <span>Made to be kept</span><i>✳</i><span>Thoughtful by nature</span><i>✳</i><span>Personal, not promotional</span><i>✳</i><span>Good from the get-go</span>
+      </section>
+
+      <section class="shop-section section-pad" id="shop">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> Find their kind of good</p>
+            <h2>Small gestures.<br /><em>Big feelings.</em></h2>
+          </div>
+          <div class="shop-heading-aside">
+            <p>Not just a logo on a thing. These are the things they’ll reach for long after the unboxing.</p>
+            <a class="text-link" href="#shop">Explore everything <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="category-pills" role="group" aria-label="Filter products">
+          <button class="category-pill is-active" data-filter="All gifts">All gifts <span>08</span></button>
+          <button class="category-pill" data-filter="Desk & tech">Desk & tech</button>
+          <button class="category-pill" data-filter="On the go">On the go</button>
+          <button class="category-pill" data-filter="Little luxuries">Little luxuries</button>
+          <button class="category-pill" data-filter="Under $50">Under $50</button>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-category="Desk & tech" data-name="The everyday notebook">
+            <div class="product-image image-sand">
+              <span class="product-badge">Bestseller</span>
+              <button class="quick-add" aria-label="Add The Everyday Notebook to bag" data-product="The Everyday Notebook" data-price="24">+</button>
+              <img src="https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=900&q=85" alt="Beautifully bound notebook and stationery" loading="lazy" />
+              <span class="product-image-caption">A fresh page, every day.</span>
+            </div>
+            <div class="product-meta"><div><h3>The Everyday Notebook</h3><p>Desk & tech <span>·</span> 3 colors</p></div><strong>$24</strong></div>
+          </article>
+          <article class="product-card" data-category="On the go" data-name="The good company bottle">
+            <div class="product-image image-blue">
+              <span class="product-badge badge-new">Good new thing</span>
+              <button class="quick-add" aria-label="Add The Good Company Bottle to bag" data-product="The Good Company Bottle" data-price="38">+</button>
+              <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=900&q=85" alt="Minimal reusable bottle in soft blue" loading="lazy" />
+              <span class="product-image-caption">Refill. Repeat. Feel good.</span>
+            </div>
+            <div class="product-meta"><div><h3>The Good Company Bottle</h3><p>On the go <span>·</span> 4 colors</p></div><strong>$38</strong></div>
+          </article>
+          <article class="product-card" data-category="Little luxuries" data-name="The slow morning candle">
+            <div class="product-image image-pink">
+              <span class="product-badge badge-limited">A little luxury</span>
+              <button class="quick-add" aria-label="Add The Slow Morning Candle to bag" data-product="The Slow Morning Candle" data-price="32">+</button>
+              <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85" alt="Scented candle for a slow morning" loading="lazy" />
+              <span class="product-image-caption">A moment, just for them.</span>
+            </div>
+            <div class="product-meta"><div><h3>The Slow Morning Candle</h3><p>Little luxuries <span>·</span> 2 scents</p></div><strong>$32</strong></div>
+          </article>
+          <article class="product-card" data-category="Desk & tech" data-name="The everyday headphones">
+            <div class="product-image image-green">
+              <span class="product-badge badge-new">People pleaser</span>
+              <button class="quick-add" aria-label="Add The Everyday Headphones to bag" data-product="The Everyday Headphones" data-price="48">+</button>
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85" alt="Premium headphones for a focused day" loading="lazy" />
+              <span class="product-image-caption">Their own little world.</span>
+            </div>
+            <div class="product-meta"><div><h3>The Everyday Headphones</h3><p>Desk & tech <span>·</span> 2 colors</p></div><strong>$48</strong></div>
+          </article>
+          <article class="product-card" data-category="On the go" data-name="The everywhere tote">
+            <div class="product-image image-sand">
+              <span class="product-badge">Good on the go</span>
+              <button class="quick-add" aria-label="Add The Everywhere Tote to bag" data-product="The Everywhere Tote" data-price="42">+</button>
+              <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=900&q=85" alt="Everyday carryall bag for work and weekends" loading="lazy" />
+              <span class="product-image-caption">Room for the whole day.</span>
+            </div>
+            <div class="product-meta"><div><h3>The Everywhere Tote</h3><p>On the go <span>·</span> 3 colors</p></div><strong>$42</strong></div>
+          </article>
+          <article class="product-card" data-category="Desk & tech" data-name="The first things mug">
+            <div class="product-image image-pink">
+              <span class="product-badge badge-new">Desk favorite</span>
+              <button class="quick-add" aria-label="Add The First Things Mug to bag" data-product="The First Things Mug" data-price="22">+</button>
+              <img src="https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85" alt="A ceramic mug for their morning coffee" loading="lazy" />
+              <span class="product-image-caption">A softer start to the day.</span>
+            </div>
+            <div class="product-meta"><div><h3>The First Things Mug</h3><p>Desk & tech <span>·</span> 2 colors</p></div><strong>$22</strong></div>
+          </article>
+          <article class="product-card" data-category="Little luxuries" data-name="The Sunday skin set">
+            <div class="product-image image-blue">
+              <span class="product-badge badge-limited">A little reset</span>
+              <button class="quick-add" aria-label="Add The Sunday Skin Set to bag" data-product="The Sunday Skin Set" data-price="46">+</button>
+              <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=85" alt="A thoughtful self-care set for a slower Sunday" loading="lazy" />
+              <span class="product-image-caption">Their permission to pause.</span>
+            </div>
+            <div class="product-meta"><div><h3>The Sunday Skin Set</h3><p>Little luxuries <span>·</span> 2 scents</p></div><strong>$46</strong></div>
+          </article>
+          <article class="product-card" data-category="On the go" data-name="The take it slow travel pouch">
+            <div class="product-image image-green">
+              <span class="product-badge">Ready when they are</span>
+              <button class="quick-add" aria-label="Add The Take It Slow Travel Pouch to bag" data-product="The Take It Slow Travel Pouch" data-price="29">+</button>
+              <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=85" alt="A versatile pouch for keeping travel essentials together" loading="lazy" />
+              <span class="product-image-caption">A place for all the little things.</span>
+            </div>
+            <div class="product-meta"><div><h3>The Take It Slow Travel Pouch</h3><p>On the go <span>·</span> 2 colors</p></div><strong>$29</strong></div>
+          </article>
+        </div>
+        <p class="no-results" hidden>No gifts found. Try another search or category.</p>
+        <div class="shop-bottom"><span>Good gifts, thoughtfully chosen.</span><a class="button button-outline" href="#contact">Need a little help? <span aria-hidden="true">↗</span></a></div>
+      </section>
+
+      <section class="story-section">
+        <div class="story-image">
+          <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1200&q=85" alt="Thoughtfully arranged gifts ready to be given" loading="lazy" />
+          <span class="story-image-tag">The best kind of work perk.</span>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> More than a nice gesture</p>
+          <h2>Good gifts<br />make <em>good work.</em></h2>
+          <p>From the first hello to the big “we did it,” the right gift says what a Slack message can’t. We make the good stuff easy, so you can make people feel seen.</p>
+          <a class="button button-dark" href="#how-it-works">A little about us <span aria-hidden="true">↗</span></a>
+          <div class="story-stat"><strong>1,200<span>+</span></strong><span>teams making<br />work more human</span></div>
+          <span class="story-doodle" aria-hidden="true">✳</span>
+        </div>
+      </section>
+
+      <section class="how-section section-pad" id="how-it-works">
+        <div class="how-heading">
+          <p class="eyebrow"><span class="eyebrow-line"></span> All the good. None of the guesswork.</p>
+          <h2>Easy as <em>one, two, yay.</em></h2>
+          <p>We’ve thought of the details, so all you have to do is pick the person.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step"><span class="step-number">01</span><div class="step-icon" aria-hidden="true">⌕</div><h3>Find their thing</h3><p>Tell us a little about your people. We’ll find the gifts that just get them.</p></article>
+          <article class="step"><span class="step-number">02</span><div class="step-icon step-icon-flower" aria-hidden="true">✿</div><h3>Make it personal</h3><p>Your colors, your note, your “this made me think of you” moment. Easy.</p></article>
+          <article class="step"><span class="step-number">03</span><div class="step-icon" aria-hidden="true">↗</div><h3>Send the good</h3><p>We wrap it up and get it to the right people, wherever they call their desk.</p></article>
+        </div>
+      </section>
+
+      <section class="quote-banner">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <blockquote>Our team actually <em>uses</em> their gifts.<br />Honestly, that says it all.</blockquote>
+        <div class="quote-byline"><span class="quote-avatar">J</span><span><strong>Jamie R.</strong><br />People & Culture, Kinfield</span></div>
+        <span class="quote-sparkle sparkle-one" aria-hidden="true">✳</span>
+        <span class="quote-sparkle sparkle-two" aria-hidden="true">✳</span>
+      </section>
+
+      <section class="newsletter section-pad" id="contact">
+        <div><p class="eyebrow"><span class="eyebrow-line"></span> The occasional good thing</p><h2>Good mail.<br /><em>Good mood.</em></h2></div>
+        <div class="newsletter-content">
+          <p>A few thoughtful gifting ideas, the odd little surprise, and absolutely no “just circling back.”</p>
+          <form class="newsletter-form">
+            <label class="sr-only" for="email-address">Your email address</label>
+            <input id="email-address" name="email" type="email" placeholder="Your email address" required />
+            <button type="submit" aria-label="Subscribe to Goodform emails">I’m in <span aria-hidden="true">↗</span></button>
+          </form>
+          <p class="form-message" aria-live="polite">By signing up, you agree to receive the occasional good thing. Unsubscribe whenever.</p>
+        </div>
+        <span class="newsletter-flower" aria-hidden="true">✳</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="footer-brand"><a class="wordmark wordmark-footer" href="#"><span class="wordmark-mark" aria-hidden="true">g.</span>goodform</a><p>Good gifts.<br />Good people.<br />Good work.</p></div>
+        <div class="footer-links"><div><strong>Find your good</strong><a href="#shop">Shop all gifts</a><a href="#shop">Desk & tech</a><a href="#shop">On the go</a><a href="#shop">Little luxuries</a></div><div><strong>Good to know</strong><a href="#how-it-works">How it works</a><a href="#contact">Our story</a><a href="#contact">Get in touch</a><a href="#contact">FAQs</a></div><div><strong>Come say hi</strong><a href="#contact">Instagram ↗</a><a href="#contact">Pinterest ↗</a><a href="mailto:hello@goodform.gifts">hello@goodform.gifts</a></div></div>
+      </div>
+      <div class="footer-bottom"><span>© 2025 Goodform Goods Co.</span><span>Made with a little more thought. <b>✳</b></span><div><a href="#contact">Privacy</a><a href="#contact">Terms</a></div></div>
+    </footer>
+
+    <div class="search-panel" aria-hidden="true">
+      <div class="search-panel-inner"><label for="site-search">Looking for a little something?</label><div class="search-input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.3" /><path d="m16 16 4.4 4.4" /></svg><input id="site-search" type="search" placeholder="Try “desk” or “under $50”" /><button class="search-close icon-button" aria-label="Close search">×</button></div><p class="search-hint">Try: something for their desk, under $50, or a little luxury</p></div>
+    </div>
+    <div class="cart-overlay" aria-hidden="true"></div>
+    <aside class="cart-drawer" aria-label="Shopping bag" aria-hidden="true">
+      <div class="drawer-header"><div><span class="eyebrow">YOUR GOOD THINGS</span><h2>Your bag <span class="drawer-count">(0)</span></h2></div><button class="drawer-close icon-button" aria-label="Close shopping bag">×</button></div>
+      <div class="cart-items"></div>
+      <div class="cart-empty"><span aria-hidden="true">✳</span><h3>A little room for good.</h3><p>Your bag’s waiting for the perfect something.</p><button class="button button-dark continue-shopping">Find a gift <span aria-hidden="true">↗</span></button></div>
+      <div class="drawer-footer" hidden><div class="subtotal-row"><span>Subtotal</span><strong class="cart-subtotal">$0</strong></div><p>Shipping and any custom touches are calculated at checkout.</p><button class="button button-dark checkout-button">On to the good part <span aria-hidden="true">↗</span></button></div>
+    </aside>
+    <div class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
